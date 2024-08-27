@@ -1,0 +1,259 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body{
+    background: #ebebeb;
+}
+
+.header-nav{
+    background: #322e41;
+}
+
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-list{
+    display: flex;
+}
+
+.header-list-link{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding: 23px 22px;
+    display: block;
+    outline: none;
+    transition: .5s;
+}
+
+.header-list-link:hover{
+    transition: .5s;
+    color: #D47300;
+    background-color: #fff;
+}
+
+
+.header-content{
+    background: url(../img/nike.jpg)no-repeat center /cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-content-title{
+    font-family:'Roboto';
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-content-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.header-content-text span{
+    font-weight: 700;
+}
+
+
+.main-left{
+    background:#fff;
+    border-radius: 6px;
+    width: 540px;
+  
+    padding: 15px 15px;
+}
+
+.main-left-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    color: #2c2a2a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.main-left-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+
+.main-right{
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: -37px;
+}
+
+
+.main-right-item{
+    border-radius: 6px;
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.main-right-img{
+    border: 2px solid #d47300;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-right-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #2c2a2a;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.main-right-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.footer{
+    background: #322e41;
+    padding: 40px 0;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    width: 100%;
+}
+
+
+.footer-form-input{
+    border-radius: 6px;
+    background: #fff;
+    height: 36px;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+
+.footer-form-input::placeholder,
+.footer-form-text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+
+.footer-form-text{
+    border-radius: 6px;
+    background: #fff;
+    height: 86px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    resize: none;
+}
+
+.footer-form-btn{
+    border-radius: 6px;
+    background: #544294;
+    height: 36px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list-link{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+    min-width: 86px;
+    display: block;
+}
+
+.footer-list-link:hover{
+    color: #D47300;
+    transition: .5s;
+}
+
+.footer-list{
+    max-width: 236px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-social{
+    display: flex;
+    gap: 40px;
+}
